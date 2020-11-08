@@ -1,0 +1,1298 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--global',
+1 verbose cli   'vue-cli' ]
+2 info using npm@1.3.5
+3 info using node@v0.10.14
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'vue-cli', null ]
+6 verbose cache add name=undefined spec="vue-cli" args=["vue-cli",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'vue-cli',
+7 verbose parsed url   path: 'vue-cli',
+7 verbose parsed url   href: 'vue-cli' }
+8 silly lockFile 18a420e0-vue-cli vue-cli
+9 verbose lock vue-cli C:\Users\Esteban\AppData\Roaming\npm-cache\18a420e0-vue-cli.lock
+10 silly lockFile 18a420e0-vue-cli vue-cli
+11 silly lockFile 18a420e0-vue-cli vue-cli
+12 verbose addNamed [ 'vue-cli', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 3d3026e0-vue-cli vue-cli@
+15 verbose lock vue-cli@ C:\Users\Esteban\AppData\Roaming\npm-cache\3d3026e0-vue-cli.lock
+16 silly addNameRange { name: 'vue-cli', range: '*', hasData: false }
+17 verbose url raw vue-cli
+18 verbose url resolving [ 'https://registry.npmjs.org/', './vue-cli' ]
+19 verbose url resolved https://registry.npmjs.org/vue-cli
+20 info trying registry request attempt 1 at 10:20:47
+21 http GET https://registry.npmjs.org/vue-cli
+22 http 200 https://registry.npmjs.org/vue-cli
+23 silly registry.get cb [ 200,
+23 silly registry.get   { date: 'Thu, 29 Oct 2020 17:20:52 GMT',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'content-length': '79845',
+23 silly registry.get     connection: 'keep-alive',
+23 silly registry.get     'set-cookie': [ '__cfduid=d45f3ebeca2d6eeec1806d0a56d2ea4481603992052; expires=Sat, 28-Nov-20 17:20:52 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+23 silly registry.get     'cf-ray': '5e9e91d89f291b00-PHX',
+23 silly registry.get     'accept-ranges': 'bytes',
+23 silly registry.get     'cache-control': 'public, max-age=300',
+23 silly registry.get     etag: '"170099830303f7594f98ca4311e54f51"',
+23 silly registry.get     'last-modified': 'Thu, 07 May 2020 16:01:30 GMT',
+23 silly registry.get     vary: 'accept-encoding, accept',
+23 silly registry.get     'cf-cache-status': 'HIT',
+23 silly registry.get     'cf-request-id': '0616f97b5c00001b008622c000000001',
+23 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+23 silly registry.get     server: 'cloudflare' } ]
+24 silly addNameRange number 2 { name: 'vue-cli', range: '*', hasData: true }
+25 silly addNameRange versions [ 'vue-cli',
+25 silly addNameRange   [ '1.0.0',
+25 silly addNameRange     '1.0.1',
+25 silly addNameRange     '1.0.2',
+25 silly addNameRange     '1.0.3',
+25 silly addNameRange     '1.1.0',
+25 silly addNameRange     '1.1.1',
+25 silly addNameRange     '1.1.2',
+25 silly addNameRange     '1.1.3',
+25 silly addNameRange     '1.2.0',
+25 silly addNameRange     '1.3.0',
+25 silly addNameRange     '1.4.0',
+25 silly addNameRange     '2.0.0',
+25 silly addNameRange     '2.0.1',
+25 silly addNameRange     '2.0.2',
+25 silly addNameRange     '2.0.3',
+25 silly addNameRange     '2.0.4',
+25 silly addNameRange     '2.1.0',
+25 silly addNameRange     '2.1.1',
+25 silly addNameRange     '2.2.0',
+25 silly addNameRange     '2.3.1',
+25 silly addNameRange     '2.4.0',
+25 silly addNameRange     '2.5.0',
+25 silly addNameRange     '2.5.1',
+25 silly addNameRange     '2.6.0',
+25 silly addNameRange     '2.7.0',
+25 silly addNameRange     '2.8.0',
+25 silly addNameRange     '2.8.1',
+25 silly addNameRange     '2.8.2',
+25 silly addNameRange     '2.9.0',
+25 silly addNameRange     '2.9.1',
+25 silly addNameRange     '2.9.2',
+25 silly addNameRange     '2.9.3',
+25 silly addNameRange     '2.9.4',
+25 silly addNameRange     '2.9.5',
+25 silly addNameRange     '2.9.6' ] ]
+26 verbose addNamed [ 'vue-cli', '2.9.6' ]
+27 verbose addNamed [ '2.9.6', '2.9.6' ]
+28 silly lockFile d8627e31-vue-cli-2-9-6 vue-cli@2.9.6
+29 verbose lock vue-cli@2.9.6 C:\Users\Esteban\AppData\Roaming\npm-cache\d8627e31-vue-cli-2-9-6.lock
+30 warn deprecated vue-cli@2.9.6: This package has been deprecated in favour of @vue/cli
+31 silly lockFile 583a8d68-js-org-vue-cli-vue-cli-2-9-6-tgz https://registry.npmjs.org/vue-cli/-/vue-cli-2.9.6.tgz
+32 verbose lock https://registry.npmjs.org/vue-cli/-/vue-cli-2.9.6.tgz C:\Users\Esteban\AppData\Roaming\npm-cache\583a8d68-js-org-vue-cli-vue-cli-2-9-6-tgz.lock
+33 verbose addRemoteTarball [ 'https://registry.npmjs.org/vue-cli/-/vue-cli-2.9.6.tgz',
+33 verbose addRemoteTarball   'afc3cc6ce6de350d89876fee2dc163d0b83e0136' ]
+34 info retry fetch attempt 1 at 10:20:47
+35 verbose fetch to= C:\Users\Esteban\AppData\Local\Temp\npm-816-2o__Sg5D\1603992047867-0.8074293213430792\tmp.tgz
+36 http GET https://registry.npmjs.org/vue-cli/-/vue-cli-2.9.6.tgz
+37 http 200 https://registry.npmjs.org/vue-cli/-/vue-cli-2.9.6.tgz
+38 verbose tar unpack C:\Users\Esteban\AppData\Local\Temp\npm-816-2o__Sg5D\1603992047867-0.8074293213430792\tmp.tgz
+39 silly lockFile b97ca2f8-47867-0-8074293213430792-package tar://C:\Users\Esteban\AppData\Local\Temp\npm-816-2o__Sg5D\1603992047867-0.8074293213430792\package
+40 verbose lock tar://C:\Users\Esteban\AppData\Local\Temp\npm-816-2o__Sg5D\1603992047867-0.8074293213430792\package C:\Users\Esteban\AppData\Roaming\npm-cache\b97ca2f8-47867-0-8074293213430792-package.lock
+41 silly lockFile 7b2ff34a-47867-0-8074293213430792-tmp-tgz tar://C:\Users\Esteban\AppData\Local\Temp\npm-816-2o__Sg5D\1603992047867-0.8074293213430792\tmp.tgz
+42 verbose lock tar://C:\Users\Esteban\AppData\Local\Temp\npm-816-2o__Sg5D\1603992047867-0.8074293213430792\tmp.tgz C:\Users\Esteban\AppData\Roaming\npm-cache\7b2ff34a-47867-0-8074293213430792-tmp-tgz.lock
+43 silly gunzTarPerm modes [ '755', '644' ]
+44 silly gunzTarPerm extractEntry package.json
+45 silly gunzTarPerm extractEntry .editorconfig
+46 silly gunzTarPerm extractEntry .eslintrc
+47 silly gunzTarPerm extractEntry appveyor.yml
+48 silly gunzTarPerm extractEntry circle.yml
+49 silly gunzTarPerm extractEntry CONTRIBUTING.md
+50 silly gunzTarPerm extractEntry issue_template.md
+51 silly gunzTarPerm extractEntry LICENSE
+52 silly gunzTarPerm extractEntry README.md
+53 silly gunzTarPerm extractEntry bin/vue
+54 silly gunzTarPerm extractEntry bin/vue-build
+55 silly gunzTarPerm extractEntry bin/vue-create
+56 silly gunzTarPerm extractEntry bin/vue-init
+57 silly gunzTarPerm extractEntry bin/vue-list
+58 silly gunzTarPerm extractEntry docs/build.md
+59 silly gunzTarPerm extractEntry lib/ask.js
+60 silly gunzTarPerm extractEntry lib/check-version.js
+61 silly gunzTarPerm extractEntry lib/eval.js
+62 silly gunzTarPerm extractEntry lib/filter.js
+63 silly gunzTarPerm extractEntry lib/generate.js
+64 silly gunzTarPerm extractEntry lib/git-user.js
+65 silly gunzTarPerm extractEntry lib/local-path.js
+66 silly gunzTarPerm extractEntry lib/logger.js
+67 silly gunzTarPerm extractEntry lib/options.js
+68 silly gunzTarPerm extractEntry lib/warnings.js
+69 silly gunzTarPerm extractEntry test/e2e/mock-error/meta.js
+70 silly gunzTarPerm extractEntry test/e2e/mock-error/template/readme.md
+71 silly gunzTarPerm extractEntry test/e2e/mock-meta-json/meta.json
+72 silly gunzTarPerm extractEntry test/e2e/mock-meta-json/template/.gitkeep
+73 silly gunzTarPerm extractEntry test/e2e/mock-metadata-repo-js/meta.js
+74 silly gunzTarPerm extractEntry test/e2e/mock-metadata-repo-js/template/readme.md
+75 silly gunzTarPerm extractEntry test/e2e/mock-metalsmith-custom-before-after/meta.js
+76 silly gunzTarPerm extractEntry test/e2e/mock-metalsmith-custom-before-after/template/readme.md
+77 silly gunzTarPerm extractEntry test/e2e/mock-metalsmith-custom/meta.js
+78 silly gunzTarPerm extractEntry test/e2e/mock-metalsmith-custom/template/readme.md
+79 silly gunzTarPerm extractEntry test/e2e/mock-skip-glob/meta.json
+80 silly gunzTarPerm extractEntry test/e2e/mock-skip-glob/template/package.json
+81 silly gunzTarPerm extractEntry test/e2e/mock-skip-glob/template/src/no.js
+82 silly gunzTarPerm extractEntry test/e2e/mock-skip-glob/template/src/no.vue
+83 silly gunzTarPerm extractEntry test/e2e/mock-skip-glob/template/src/yes.js
+84 silly gunzTarPerm extractEntry test/e2e/mock-skip-glob/template/src/yes.vue
+85 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/meta.json
+86 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/template/package.json
+87 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/template/src/no.js
+88 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/template/src/skip-one.vue
+89 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/template/src/skip-two.vue
+90 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/template/src/yes.vue
+91 silly gunzTarPerm extractEntry test/e2e/mock-vue-app/App.vue
+92 silly gunzTarPerm extractEntry test/e2e/mock-vue-app/config.js
+93 silly gunzTarPerm extractEntry test/e2e/mock-vue-app/index.js
+94 silly gunzTarPerm extractEntry test/e2e/test-build.js
+95 silly gunzTarPerm extractEntry test/e2e/test.js
+96 silly lockFile b97ca2f8-47867-0-8074293213430792-package tar://C:\Users\Esteban\AppData\Local\Temp\npm-816-2o__Sg5D\1603992047867-0.8074293213430792\package
+97 silly lockFile b97ca2f8-47867-0-8074293213430792-package tar://C:\Users\Esteban\AppData\Local\Temp\npm-816-2o__Sg5D\1603992047867-0.8074293213430792\package
+98 silly lockFile 7b2ff34a-47867-0-8074293213430792-tmp-tgz tar://C:\Users\Esteban\AppData\Local\Temp\npm-816-2o__Sg5D\1603992047867-0.8074293213430792\tmp.tgz
+99 silly lockFile 7b2ff34a-47867-0-8074293213430792-tmp-tgz tar://C:\Users\Esteban\AppData\Local\Temp\npm-816-2o__Sg5D\1603992047867-0.8074293213430792\tmp.tgz
+100 verbose tar pack [ 'C:\\Users\\Esteban\\AppData\\Roaming\\npm-cache\\vue-cli\\2.9.6\\package.tgz',
+100 verbose tar pack   'C:\\Users\\Esteban\\AppData\\Local\\Temp\\npm-816-2o__Sg5D\\1603992047867-0.8074293213430792\\package' ]
+101 verbose tarball C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package.tgz
+102 verbose folder C:\Users\Esteban\AppData\Local\Temp\npm-816-2o__Sg5D\1603992047867-0.8074293213430792\package
+103 silly lockFile b97ca2f8-47867-0-8074293213430792-package tar://C:\Users\Esteban\AppData\Local\Temp\npm-816-2o__Sg5D\1603992047867-0.8074293213430792\package
+104 verbose lock tar://C:\Users\Esteban\AppData\Local\Temp\npm-816-2o__Sg5D\1603992047867-0.8074293213430792\package C:\Users\Esteban\AppData\Roaming\npm-cache\b97ca2f8-47867-0-8074293213430792-package.lock
+105 silly lockFile 2ba72218--cache-vue-cli-2-9-6-package-tgz tar://C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package.tgz
+106 verbose lock tar://C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package.tgz C:\Users\Esteban\AppData\Roaming\npm-cache\2ba72218--cache-vue-cli-2-9-6-package-tgz.lock
+107 silly lockFile b97ca2f8-47867-0-8074293213430792-package tar://C:\Users\Esteban\AppData\Local\Temp\npm-816-2o__Sg5D\1603992047867-0.8074293213430792\package
+108 silly lockFile b97ca2f8-47867-0-8074293213430792-package tar://C:\Users\Esteban\AppData\Local\Temp\npm-816-2o__Sg5D\1603992047867-0.8074293213430792\package
+109 silly lockFile 2ba72218--cache-vue-cli-2-9-6-package-tgz tar://C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package.tgz
+110 silly lockFile 2ba72218--cache-vue-cli-2-9-6-package-tgz tar://C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package.tgz
+111 silly lockFile c6da51f3--npm-cache-vue-cli-2-9-6-package C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package
+112 verbose lock C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package C:\Users\Esteban\AppData\Roaming\npm-cache\c6da51f3--npm-cache-vue-cli-2-9-6-package.lock
+113 silly lockFile c6da51f3--npm-cache-vue-cli-2-9-6-package C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package
+114 silly lockFile c6da51f3--npm-cache-vue-cli-2-9-6-package C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package
+115 verbose tar unpack C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package.tgz
+116 silly lockFile 6c4bb740--npm-cache-vue-cli-2-9-6-package tar://C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package
+117 verbose lock tar://C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package C:\Users\Esteban\AppData\Roaming\npm-cache\6c4bb740--npm-cache-vue-cli-2-9-6-package.lock
+118 silly lockFile 2ba72218--cache-vue-cli-2-9-6-package-tgz tar://C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package.tgz
+119 verbose lock tar://C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package.tgz C:\Users\Esteban\AppData\Roaming\npm-cache\2ba72218--cache-vue-cli-2-9-6-package-tgz.lock
+120 silly gunzTarPerm modes [ '755', '644' ]
+121 silly gunzTarPerm extractEntry package.json
+122 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+123 silly gunzTarPerm extractEntry README.md
+124 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+125 silly gunzTarPerm extractEntry LICENSE
+126 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+127 silly gunzTarPerm extractEntry docs/build.md
+128 silly gunzTarPerm modified mode [ 'docs/build.md', 438, 420 ]
+129 silly gunzTarPerm extractEntry circle.yml
+130 silly gunzTarPerm modified mode [ 'circle.yml', 438, 420 ]
+131 silly gunzTarPerm extractEntry CONTRIBUTING.md
+132 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 438, 420 ]
+133 silly gunzTarPerm extractEntry .eslintrc
+134 silly gunzTarPerm modified mode [ '.eslintrc', 438, 420 ]
+135 silly gunzTarPerm extractEntry issue_template.md
+136 silly gunzTarPerm modified mode [ 'issue_template.md', 438, 420 ]
+137 silly gunzTarPerm extractEntry lib/ask.js
+138 silly gunzTarPerm modified mode [ 'lib/ask.js', 438, 420 ]
+139 silly gunzTarPerm extractEntry lib/check-version.js
+140 silly gunzTarPerm modified mode [ 'lib/check-version.js', 438, 420 ]
+141 silly gunzTarPerm extractEntry lib/eval.js
+142 silly gunzTarPerm modified mode [ 'lib/eval.js', 438, 420 ]
+143 silly gunzTarPerm extractEntry lib/filter.js
+144 silly gunzTarPerm modified mode [ 'lib/filter.js', 438, 420 ]
+145 silly gunzTarPerm extractEntry lib/generate.js
+146 silly gunzTarPerm modified mode [ 'lib/generate.js', 438, 420 ]
+147 silly gunzTarPerm extractEntry lib/git-user.js
+148 silly gunzTarPerm modified mode [ 'lib/git-user.js', 438, 420 ]
+149 silly gunzTarPerm extractEntry lib/local-path.js
+150 silly gunzTarPerm modified mode [ 'lib/local-path.js', 438, 420 ]
+151 silly gunzTarPerm extractEntry lib/logger.js
+152 silly gunzTarPerm modified mode [ 'lib/logger.js', 438, 420 ]
+153 silly gunzTarPerm extractEntry lib/options.js
+154 silly gunzTarPerm modified mode [ 'lib/options.js', 438, 420 ]
+155 silly gunzTarPerm extractEntry lib/warnings.js
+156 silly gunzTarPerm modified mode [ 'lib/warnings.js', 438, 420 ]
+157 silly gunzTarPerm extractEntry .editorconfig
+158 silly gunzTarPerm modified mode [ '.editorconfig', 438, 420 ]
+159 silly gunzTarPerm extractEntry appveyor.yml
+160 silly gunzTarPerm modified mode [ 'appveyor.yml', 438, 420 ]
+161 silly gunzTarPerm extractEntry bin/vue
+162 silly gunzTarPerm modified mode [ 'bin/vue', 438, 420 ]
+163 silly gunzTarPerm extractEntry bin/vue-build
+164 silly gunzTarPerm modified mode [ 'bin/vue-build', 438, 420 ]
+165 silly gunzTarPerm extractEntry bin/vue-create
+166 silly gunzTarPerm modified mode [ 'bin/vue-create', 438, 420 ]
+167 silly gunzTarPerm extractEntry bin/vue-init
+168 silly gunzTarPerm modified mode [ 'bin/vue-init', 438, 420 ]
+169 silly gunzTarPerm extractEntry bin/vue-list
+170 silly gunzTarPerm modified mode [ 'bin/vue-list', 438, 420 ]
+171 silly gunzTarPerm extractEntry test/e2e/test-build.js
+172 silly gunzTarPerm modified mode [ 'test/e2e/test-build.js', 438, 420 ]
+173 silly gunzTarPerm extractEntry test/e2e/test.js
+174 silly gunzTarPerm modified mode [ 'test/e2e/test.js', 438, 420 ]
+175 silly gunzTarPerm extractEntry test/e2e/mock-error/meta.js
+176 silly gunzTarPerm modified mode [ 'test/e2e/mock-error/meta.js', 438, 420 ]
+177 silly gunzTarPerm extractEntry test/e2e/mock-error/template/readme.md
+178 silly gunzTarPerm modified mode [ 'test/e2e/mock-error/template/readme.md', 438, 420 ]
+179 silly gunzTarPerm extractEntry test/e2e/mock-meta-json/meta.json
+180 silly gunzTarPerm modified mode [ 'test/e2e/mock-meta-json/meta.json', 438, 420 ]
+181 silly gunzTarPerm extractEntry test/e2e/mock-meta-json/template/.gitkeep
+182 silly gunzTarPerm modified mode [ 'test/e2e/mock-meta-json/template/.gitkeep', 438, 420 ]
+183 silly gunzTarPerm extractEntry test/e2e/mock-metadata-repo-js/meta.js
+184 silly gunzTarPerm modified mode [ 'test/e2e/mock-metadata-repo-js/meta.js', 438, 420 ]
+185 silly gunzTarPerm extractEntry test/e2e/mock-metadata-repo-js/template/readme.md
+186 silly gunzTarPerm modified mode [ 'test/e2e/mock-metadata-repo-js/template/readme.md', 438, 420 ]
+187 silly gunzTarPerm extractEntry test/e2e/mock-metalsmith-custom/meta.js
+188 silly gunzTarPerm modified mode [ 'test/e2e/mock-metalsmith-custom/meta.js', 438, 420 ]
+189 silly gunzTarPerm extractEntry test/e2e/mock-metalsmith-custom/template/readme.md
+190 silly gunzTarPerm modified mode [ 'test/e2e/mock-metalsmith-custom/template/readme.md',
+190 silly gunzTarPerm   438,
+190 silly gunzTarPerm   420 ]
+191 silly gunzTarPerm extractEntry test/e2e/mock-metalsmith-custom-before-after/meta.js
+192 silly gunzTarPerm modified mode [ 'test/e2e/mock-metalsmith-custom-before-after/meta.js',
+192 silly gunzTarPerm   438,
+192 silly gunzTarPerm   420 ]
+193 silly gunzTarPerm extractEntry test/e2e/mock-metalsmith-custom-before-after/template/readme.md
+194 silly gunzTarPerm modified mode [ 'test/e2e/mock-metalsmith-custom-before-after/template/readme.md',
+194 silly gunzTarPerm   438,
+194 silly gunzTarPerm   420 ]
+195 silly gunzTarPerm extractEntry test/e2e/mock-skip-glob/meta.json
+196 silly gunzTarPerm modified mode [ 'test/e2e/mock-skip-glob/meta.json', 438, 420 ]
+197 silly gunzTarPerm extractEntry test/e2e/mock-skip-glob/template/package.json
+198 silly gunzTarPerm modified mode [ 'test/e2e/mock-skip-glob/template/package.json', 438, 420 ]
+199 silly gunzTarPerm extractEntry test/e2e/mock-skip-glob/template/src/no.js
+200 silly gunzTarPerm modified mode [ 'test/e2e/mock-skip-glob/template/src/no.js', 438, 420 ]
+201 silly gunzTarPerm extractEntry test/e2e/mock-skip-glob/template/src/yes.js
+202 silly gunzTarPerm modified mode [ 'test/e2e/mock-skip-glob/template/src/yes.js', 438, 420 ]
+203 silly gunzTarPerm extractEntry test/e2e/mock-skip-glob/template/src/no.vue
+204 silly gunzTarPerm modified mode [ 'test/e2e/mock-skip-glob/template/src/no.vue', 438, 420 ]
+205 silly gunzTarPerm extractEntry test/e2e/mock-skip-glob/template/src/yes.vue
+206 silly gunzTarPerm modified mode [ 'test/e2e/mock-skip-glob/template/src/yes.vue', 438, 420 ]
+207 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/meta.json
+208 silly gunzTarPerm modified mode [ 'test/e2e/mock-template-repo/meta.json', 438, 420 ]
+209 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/template/package.json
+210 silly gunzTarPerm modified mode [ 'test/e2e/mock-template-repo/template/package.json', 438, 420 ]
+211 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/template/src/no.js
+212 silly gunzTarPerm modified mode [ 'test/e2e/mock-template-repo/template/src/no.js', 438, 420 ]
+213 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/template/src/skip-one.vue
+214 silly gunzTarPerm modified mode [ 'test/e2e/mock-template-repo/template/src/skip-one.vue',
+214 silly gunzTarPerm   438,
+214 silly gunzTarPerm   420 ]
+215 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/template/src/skip-two.vue
+216 silly gunzTarPerm modified mode [ 'test/e2e/mock-template-repo/template/src/skip-two.vue',
+216 silly gunzTarPerm   438,
+216 silly gunzTarPerm   420 ]
+217 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/template/src/yes.vue
+218 silly gunzTarPerm modified mode [ 'test/e2e/mock-template-repo/template/src/yes.vue', 438, 420 ]
+219 silly gunzTarPerm extractEntry test/e2e/mock-vue-app/config.js
+220 silly gunzTarPerm modified mode [ 'test/e2e/mock-vue-app/config.js', 438, 420 ]
+221 silly gunzTarPerm extractEntry test/e2e/mock-vue-app/index.js
+222 silly gunzTarPerm modified mode [ 'test/e2e/mock-vue-app/index.js', 438, 420 ]
+223 silly gunzTarPerm extractEntry test/e2e/mock-vue-app/App.vue
+224 silly gunzTarPerm modified mode [ 'test/e2e/mock-vue-app/App.vue', 438, 420 ]
+225 silly lockFile 6c4bb740--npm-cache-vue-cli-2-9-6-package tar://C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package
+226 silly lockFile 6c4bb740--npm-cache-vue-cli-2-9-6-package tar://C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package
+227 silly lockFile 2ba72218--cache-vue-cli-2-9-6-package-tgz tar://C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package.tgz
+228 silly lockFile 2ba72218--cache-vue-cli-2-9-6-package-tgz tar://C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package.tgz
+229 verbose chmod C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package.tgz 644
+230 silly chown skipping for windows C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package.tgz
+231 silly lockFile 583a8d68-js-org-vue-cli-vue-cli-2-9-6-tgz https://registry.npmjs.org/vue-cli/-/vue-cli-2.9.6.tgz
+232 silly lockFile 583a8d68-js-org-vue-cli-vue-cli-2-9-6-tgz https://registry.npmjs.org/vue-cli/-/vue-cli-2.9.6.tgz
+233 silly lockFile d8627e31-vue-cli-2-9-6 vue-cli@2.9.6
+234 silly lockFile d8627e31-vue-cli-2-9-6 vue-cli@2.9.6
+235 silly lockFile 3d3026e0-vue-cli vue-cli@
+236 silly lockFile 3d3026e0-vue-cli vue-cli@
+237 silly resolved [ { name: 'vue-cli',
+237 silly resolved     version: '2.9.6',
+237 silly resolved     description: 'A simple CLI for scaffolding Vue.js projects.',
+237 silly resolved     preferGlobal: true,
+237 silly resolved     bin:
+237 silly resolved      { vue: 'bin/vue',
+237 silly resolved        'vue-init': 'bin/vue-init',
+237 silly resolved        'vue-list': 'bin/vue-list' },
+237 silly resolved     repository: { type: 'git', url: 'git+https://github.com/vuejs/vue-cli.git' },
+237 silly resolved     keywords: [ 'vue', 'cli', 'spa' ],
+237 silly resolved     author: { name: 'Evan You' },
+237 silly resolved     license: 'MIT',
+237 silly resolved     bugs: { url: 'https://github.com/vuejs/vue-cli/issues' },
+237 silly resolved     homepage: 'https://github.com/vuejs/vue-cli#readme',
+237 silly resolved     scripts:
+237 silly resolved      { test: 'npm run lint && npm run e2e',
+237 silly resolved        lint: 'eslint test/e2e/test*.js lib bin/* --env mocha',
+237 silly resolved        e2e: 'rimraf test/e2e/mock-template-build && mocha test/e2e/test.js --slow 1000' },
+237 silly resolved     dependencies:
+237 silly resolved      { async: '^2.4.0',
+237 silly resolved        chalk: '^2.1.0',
+237 silly resolved        commander: '^2.9.0',
+237 silly resolved        consolidate: '^0.14.0',
+237 silly resolved        'download-git-repo': '^1.0.1',
+237 silly resolved        handlebars: '^4.0.5',
+237 silly resolved        inquirer: '^6.0.0',
+237 silly resolved        metalsmith: '^2.1.0',
+237 silly resolved        minimatch: '^3.0.0',
+237 silly resolved        multimatch: '^2.1.0',
+237 silly resolved        ora: '^1.3.0',
+237 silly resolved        'read-metadata': '^1.0.0',
+237 silly resolved        request: '^2.67.0',
+237 silly resolved        rimraf: '^2.5.0',
+237 silly resolved        semver: '^5.1.0',
+237 silly resolved        tildify: '^1.2.0',
+237 silly resolved        uid: '0.0.2',
+237 silly resolved        'user-home': '^2.0.0',
+237 silly resolved        'validate-npm-package-name': '^3.0.0',
+237 silly resolved        'coffee-script': '1.12.7' },
+237 silly resolved     devDependencies:
+237 silly resolved      { chai: '^4.1.2',
+237 silly resolved        eslint: '^3.19.0',
+237 silly resolved        'eslint-plugin-vue-libs': '^1.2.1',
+237 silly resolved        execa: '^0.8.0',
+237 silly resolved        mocha: '^3.5.3' },
+237 silly resolved     engines: { node: '>=6.0.0' },
+237 silly resolved     readme: '# vue-cli [![Build Status](https://img.shields.io/circleci/project/vuejs/vue-cli/master.svg)](https://circleci.com/gh/vuejs/vue-cli) [![npm package](https://img.shields.io/npm/v/vue-cli.svg)](https://www.npmjs.com/package/vue-cli)\n\nA simple CLI for scaffolding Vue.js projects.\n\n### Installation\n\nPrerequisites: [Node.js](https://nodejs.org/en/) (>=6.x, 8.x preferred), npm version 3+ and [Git](https://git-scm.com/).\n\n``` bash\n$ npm install -g vue-cli\n```\n\n### Usage\n\n``` bash\n$ vue init <template-name> <project-name>\n```\n\nExample:\n\n``` bash\n$ vue init webpack my-project\n```\n\nThe above command pulls the template from [vuejs-templates/webpack](https://github.com/vuejs-templates/webpack), prompts for some information, and generates the project at `./my-project/`.\n\n### vue build\n\nUse vue-cli as a zero-configuration development tool for your Vue apps and component, check out the [docs](/docs/build.md).\n\n### Official Templates\n\nThe purpose of official Vue project templates are to provide opinionated, battery-included development tooling setups so that users can get started with actual app code as fast as possible. However, these templates are un-opinionated in terms of how you structure your app code and what libraries you use in addition to Vue.js.\n\nAll official project templates are repos in the [vuejs-templates organization](https://github.com/vuejs-templates). When a new template is added to the organization, you will be able to run `vue init <template-name> <project-name>` to use that template. You can also run `vue list` to see all available official templates.\n\nCurrent available templates include:\n\n- [webpack](https://github.com/vuejs-templates/webpack) - A full-featured Webpack + vue-loader setup with hot reload, linting, testing & css extraction.\n\n- [webpack-simple](https://github.com/vuejs-templates/webpack-simple) - A simple Webpack + vue-loader setup for quick prototyping.\n\n- [browserify](https://github.com/vuejs-templates/browserify) - A full-featured Browserify + vueify setup with hot-reload, linting & unit testing.\n\n- [browserify-simple](https://github.com/vuejs-templates/browserify-simple) - A simple Browserify + vueify setup for quick prototyping.\n\n- [pwa](https://github.com/vuejs-templates/pwa) - PWA template for vue-cli based on the webpack template\n\n- [simple](https://github.com/vuejs-templates/simple) - The simplest possible Vue setup in a single HTML file\n\n### Custom Templates\n\nIt\'s unlikely to make everyone happy with the official templates. You can simply fork an official template and then use it via `vue-cli` with:\n\n``` bash\nvue init username/repo my-project\n```\n\nWhere `username/repo` is the GitHub repo shorthand for your fork.\n\nThe shorthand repo notation is passed to [download-git-repo](https://github.com/flipxfx/download-git-repo) so you can also use things like `bitbucket:username/repo` for a Bitbucket repo and `username/repo#branch` for tags or branches.\n\nIf you would like to download from a private repository use the `--clone` flag and the cli will use `git clone` so your SSH keys are used.\n\n### Local Templates\n\nInstead of a GitHub repo, you can also use a template on your local file system:\n\n``` bash\nvue init ~/fs/path/to-custom-template my-project\n```\n\n### Writing Custom Templates from Scratch\n\n- A template repo **must** have a `template` directory that holds the template files.\n\n- A template repo **may** have a metadata file for the template which can be either a `meta.js` or `meta.json` file. It can contain the following fields:\n\n  - `prompts`: used to collect user options data;\n\n  - `filters`: used to conditional filter files to render.\n  \n  - `metalsmith`: used to add custom metalsmith plugins in the chain.\n\n  - `completeMessage`: the message to be displayed to the user when the template has been generated. You can include custom instruction here.\n\n  - `complete`: Instead of using `completeMessage`, you can use a function to run stuffs when the template has been generated.\n\n#### prompts\n\nThe `prompts` field in the metadata file should be an object hash containing prompts for the user. For each entry, the key is the variable name and the value is an [Inquirer.js question object](https://github.com/SBoudrias/Inquirer.js/#question). Example:\n\n``` json\n{\n  "prompts": {\n    "name": {\n      "type": "string",\n      "required": true,\n      "message": "Project name"\n    }\n  }\n}\n```\n\nAfter all prompts are finished, all files inside `template` will be rendered using [Handlebars](http://handlebarsjs.com/), with the prompt results as the data.\n\n##### Conditional Prompts\n\nA prompt can be made conditional by adding a `when` field, which should be a JavaScript expression evaluated with data collected from previous prompts. For example:\n\n``` json\n{\n  "prompts": {\n    "lint": {\n      "type": "confirm",\n      "message": "Use a linter?"\n    },\n    "lintConfig": {\n      "when": "lint",\n      "type": "list",\n      "message": "Pick a lint config",\n      "choices": [\n        "standard",\n        "airbnb",\n        "none"\n      ]\n    }\n  }\n}\n```\n\nThe prompt for `lintConfig` will only be triggered when the user answered yes to the `lint` prompt.\n\n##### Pre-registered Handlebars Helpers\n\nTwo commonly used Handlebars helpers, `if_eq` and `unless_eq` are pre-registered:\n\n``` handlebars\n{{#if_eq lintConfig "airbnb"}};{{/if_eq}}\n```\n\n##### Custom Handlebars Helpers\n\nYou may want to register additional Handlebars helpers using the `helpers` property in the metadata file. The object key is the helper name:\n\n``` js\nmodule.exports = {\n  helpers: {\n    lowercase: str => str.toLowerCase()\n  }\n}\n```\n\nUpon registration, they can be used as follows:\n\n``` handlebars\n{{ lowercase name }}\n```\n\n#### File filters\n\nThe `filters` field in the metadata file should be an object hash containing file filtering rules. For each entry, the key is a [minimatch glob pattern](https://github.com/isaacs/minimatch) and the value is a JavaScript expression evaluated in the context of prompt answers data. Example:\n\n``` json\n{\n  "filters": {\n    "test/**/*": "needTests"\n  }\n}\n```\n\nFiles under `test` will only be generated if the user answered yes to the prompt for `needTests`.\n\nNote that the `dot` option for minimatch is set to `true` so glob patterns would also match dotfiles by default.\n\n#### Skip rendering\n\nThe `skipInterpolation` field in the metadata file should be a [minimatch glob pattern](https://github.com/isaacs/minimatch). The files matched should skip rendering. Example:\n\n``` json\n{\n  "skipInterpolation": "src/**/*.vue"\n}\n```\n\n#### Metalsmith\n\n`vue-cli` uses [metalsmith](https://github.com/segmentio/metalsmith) to generate the project.\n\nYou may customize the metalsmith builder created by vue-cli to register custom plugins.\n\n```js\n{\n  "metalsmith": function (metalsmith, opts, helpers) {\n    function customMetalsmithPlugin (files, metalsmith, done) {\n      // Implement something really custom here.\n      done(null, files)\n    }\n    \n    metalsmith.use(customMetalsmithPlugin)\n  }\n}\n```\n\nIf you need to hook metalsmith before questions are asked, you may use an object with `before` key.\n\n```js\n{\n  "metalsmith": {\n    before: function (metalsmith, opts, helpers) {},\n    after: function (metalsmith, opts, helpers) {}\n  }\n}\n```\n\n#### Additional data available in meta.{js,json}\n\n- `destDirName` - destination directory name\n\n```json\n{\n  "completeMessage": "To get started:\\n\\n  cd {{destDirName}}\\n  npm install\\n  npm run dev"\n}\n```\n\n- `inPlace` - generating template into current directory\n\n```json\n{\n  "completeMessage": "{{#inPlace}}To get started:\\n\\n  npm install\\n  npm run dev.{{else}}To get started:\\n\\n  cd {{destDirName}}\\n  npm install\\n  npm run dev.{{/inPlace}}"\n}\n```\n\n### `complete` function\n\nArguments:\n\n- `data`: the same data you can access in `completeMessage`:\n  ```js\n  {\n    complete (data) {\n      if (!data.inPlace) {\n        console.log(`cd ${data.destDirName}`)\n      }\n    }\n  }\n  ```\n\n- `helpers`: some helpers you can use to log results.\n  - `chalk`: the `chalk` module\n  - `logger`: [the built-in vue-cli logger](/lib/logger.js)\n  - `files`: An array of generated files\n  ```js\n  {\n    complete (data, {logger, chalk}) {\n      if (!data.inPlace) {\n        logger.log(`cd ${chalk.yellow(data.destDirName)}`)\n      }\n    }\n  }\n  ```\n\n### Installing a specific template version\n\n`vue-cli` uses the tool [`download-git-repo`](https://github.com/flipxfx/download-git-repo) to download the official templates used. The `download-git-repo` tool allows you to indicate a specific branch for a given repository by providing the desired branch name after a pound sign (`#`).\n\nThe format needed for a specific official template is:\n\n```\nvue init \'<template-name>#<branch-name>\' <project-name>\n```\n\nExample:\n\nInstalling the [`1.0` branch](https://github.com/vuejs-templates/webpack-simple/tree/1.0) of the webpack-simple vue template:\n\n```\nvue init \'webpack-simple#1.0\' mynewproject\n```\n\n_Note_: The surrounding quotes are necessary on zsh shells because of the special meaning of the `#` character.\n\n\n### License\n\n[MIT](http://opensource.org/licenses/MIT)\n',
+237 silly resolved     readmeFilename: 'README.md',
+237 silly resolved     _id: 'vue-cli@2.9.6',
+237 silly resolved     dist: { shasum: '547b2f1f418d27c5b7d39c9c1fc8b70d407b66c4' },
+237 silly resolved     deprecated: 'This package has been deprecated in favour of @vue/cli',
+237 silly resolved     _from: 'vue-cli@',
+237 silly resolved     _resolved: 'https://registry.npmjs.org/vue-cli/-/vue-cli-2.9.6.tgz' } ]
+238 info install vue-cli@2.9.6 into C:\Users\Esteban\AppData\Roaming\npm
+239 info installOne vue-cli@2.9.6
+240 warn engine vue-cli@2.9.6: wanted: {"node":">=6.0.0"} (current: {"node":"v0.10.14","npm":"1.3.5"})
+241 info C:\Users\Esteban\AppData\Roaming\npm\node_modules\vue-cli unbuild
+242 verbose tar unpack C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package.tgz
+243 silly lockFile 9fdb633d-Roaming-npm-node-modules-vue-cli tar://C:\Users\Esteban\AppData\Roaming\npm\node_modules\vue-cli
+244 verbose lock tar://C:\Users\Esteban\AppData\Roaming\npm\node_modules\vue-cli C:\Users\Esteban\AppData\Roaming\npm-cache\9fdb633d-Roaming-npm-node-modules-vue-cli.lock
+245 silly lockFile 2ba72218--cache-vue-cli-2-9-6-package-tgz tar://C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package.tgz
+246 verbose lock tar://C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package.tgz C:\Users\Esteban\AppData\Roaming\npm-cache\2ba72218--cache-vue-cli-2-9-6-package-tgz.lock
+247 silly gunzTarPerm modes [ '755', '644' ]
+248 silly gunzTarPerm extractEntry package.json
+249 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+250 silly gunzTarPerm extractEntry README.md
+251 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+252 silly gunzTarPerm extractEntry LICENSE
+253 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+254 silly gunzTarPerm extractEntry docs/build.md
+255 silly gunzTarPerm modified mode [ 'docs/build.md', 438, 420 ]
+256 silly gunzTarPerm extractEntry circle.yml
+257 silly gunzTarPerm modified mode [ 'circle.yml', 438, 420 ]
+258 silly gunzTarPerm extractEntry CONTRIBUTING.md
+259 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 438, 420 ]
+260 silly gunzTarPerm extractEntry .eslintrc
+261 silly gunzTarPerm modified mode [ '.eslintrc', 438, 420 ]
+262 silly gunzTarPerm extractEntry issue_template.md
+263 silly gunzTarPerm modified mode [ 'issue_template.md', 438, 420 ]
+264 silly gunzTarPerm extractEntry lib/ask.js
+265 silly gunzTarPerm modified mode [ 'lib/ask.js', 438, 420 ]
+266 silly gunzTarPerm extractEntry lib/check-version.js
+267 silly gunzTarPerm modified mode [ 'lib/check-version.js', 438, 420 ]
+268 silly gunzTarPerm extractEntry lib/eval.js
+269 silly gunzTarPerm modified mode [ 'lib/eval.js', 438, 420 ]
+270 silly gunzTarPerm extractEntry lib/filter.js
+271 silly gunzTarPerm modified mode [ 'lib/filter.js', 438, 420 ]
+272 silly gunzTarPerm extractEntry lib/generate.js
+273 silly gunzTarPerm modified mode [ 'lib/generate.js', 438, 420 ]
+274 silly gunzTarPerm extractEntry lib/git-user.js
+275 silly gunzTarPerm modified mode [ 'lib/git-user.js', 438, 420 ]
+276 silly gunzTarPerm extractEntry lib/local-path.js
+277 silly gunzTarPerm modified mode [ 'lib/local-path.js', 438, 420 ]
+278 silly gunzTarPerm extractEntry lib/logger.js
+279 silly gunzTarPerm modified mode [ 'lib/logger.js', 438, 420 ]
+280 silly gunzTarPerm extractEntry lib/options.js
+281 silly gunzTarPerm modified mode [ 'lib/options.js', 438, 420 ]
+282 silly gunzTarPerm extractEntry lib/warnings.js
+283 silly gunzTarPerm modified mode [ 'lib/warnings.js', 438, 420 ]
+284 silly gunzTarPerm extractEntry .editorconfig
+285 silly gunzTarPerm modified mode [ '.editorconfig', 438, 420 ]
+286 silly gunzTarPerm extractEntry appveyor.yml
+287 silly gunzTarPerm modified mode [ 'appveyor.yml', 438, 420 ]
+288 silly gunzTarPerm extractEntry bin/vue
+289 silly gunzTarPerm modified mode [ 'bin/vue', 438, 420 ]
+290 silly gunzTarPerm extractEntry bin/vue-build
+291 silly gunzTarPerm modified mode [ 'bin/vue-build', 438, 420 ]
+292 silly gunzTarPerm extractEntry bin/vue-create
+293 silly gunzTarPerm modified mode [ 'bin/vue-create', 438, 420 ]
+294 silly gunzTarPerm extractEntry bin/vue-init
+295 silly gunzTarPerm modified mode [ 'bin/vue-init', 438, 420 ]
+296 silly gunzTarPerm extractEntry bin/vue-list
+297 silly gunzTarPerm modified mode [ 'bin/vue-list', 438, 420 ]
+298 silly gunzTarPerm extractEntry test/e2e/test-build.js
+299 silly gunzTarPerm modified mode [ 'test/e2e/test-build.js', 438, 420 ]
+300 silly gunzTarPerm extractEntry test/e2e/test.js
+301 silly gunzTarPerm modified mode [ 'test/e2e/test.js', 438, 420 ]
+302 silly gunzTarPerm extractEntry test/e2e/mock-error/meta.js
+303 silly gunzTarPerm modified mode [ 'test/e2e/mock-error/meta.js', 438, 420 ]
+304 silly gunzTarPerm extractEntry test/e2e/mock-error/template/readme.md
+305 silly gunzTarPerm modified mode [ 'test/e2e/mock-error/template/readme.md', 438, 420 ]
+306 silly gunzTarPerm extractEntry test/e2e/mock-meta-json/meta.json
+307 silly gunzTarPerm modified mode [ 'test/e2e/mock-meta-json/meta.json', 438, 420 ]
+308 silly gunzTarPerm extractEntry test/e2e/mock-meta-json/template/.gitkeep
+309 silly gunzTarPerm modified mode [ 'test/e2e/mock-meta-json/template/.gitkeep', 438, 420 ]
+310 silly gunzTarPerm extractEntry test/e2e/mock-metadata-repo-js/meta.js
+311 silly gunzTarPerm modified mode [ 'test/e2e/mock-metadata-repo-js/meta.js', 438, 420 ]
+312 silly gunzTarPerm extractEntry test/e2e/mock-metadata-repo-js/template/readme.md
+313 silly gunzTarPerm modified mode [ 'test/e2e/mock-metadata-repo-js/template/readme.md', 438, 420 ]
+314 silly gunzTarPerm extractEntry test/e2e/mock-metalsmith-custom/meta.js
+315 silly gunzTarPerm modified mode [ 'test/e2e/mock-metalsmith-custom/meta.js', 438, 420 ]
+316 silly gunzTarPerm extractEntry test/e2e/mock-metalsmith-custom/template/readme.md
+317 silly gunzTarPerm modified mode [ 'test/e2e/mock-metalsmith-custom/template/readme.md',
+317 silly gunzTarPerm   438,
+317 silly gunzTarPerm   420 ]
+318 silly gunzTarPerm extractEntry test/e2e/mock-metalsmith-custom-before-after/meta.js
+319 silly gunzTarPerm modified mode [ 'test/e2e/mock-metalsmith-custom-before-after/meta.js',
+319 silly gunzTarPerm   438,
+319 silly gunzTarPerm   420 ]
+320 silly gunzTarPerm extractEntry test/e2e/mock-metalsmith-custom-before-after/template/readme.md
+321 silly gunzTarPerm modified mode [ 'test/e2e/mock-metalsmith-custom-before-after/template/readme.md',
+321 silly gunzTarPerm   438,
+321 silly gunzTarPerm   420 ]
+322 silly gunzTarPerm extractEntry test/e2e/mock-skip-glob/meta.json
+323 silly gunzTarPerm modified mode [ 'test/e2e/mock-skip-glob/meta.json', 438, 420 ]
+324 silly gunzTarPerm extractEntry test/e2e/mock-skip-glob/template/package.json
+325 silly gunzTarPerm modified mode [ 'test/e2e/mock-skip-glob/template/package.json', 438, 420 ]
+326 silly gunzTarPerm extractEntry test/e2e/mock-skip-glob/template/src/no.js
+327 silly gunzTarPerm modified mode [ 'test/e2e/mock-skip-glob/template/src/no.js', 438, 420 ]
+328 silly gunzTarPerm extractEntry test/e2e/mock-skip-glob/template/src/yes.js
+329 silly gunzTarPerm modified mode [ 'test/e2e/mock-skip-glob/template/src/yes.js', 438, 420 ]
+330 silly gunzTarPerm extractEntry test/e2e/mock-skip-glob/template/src/no.vue
+331 silly gunzTarPerm modified mode [ 'test/e2e/mock-skip-glob/template/src/no.vue', 438, 420 ]
+332 silly gunzTarPerm extractEntry test/e2e/mock-skip-glob/template/src/yes.vue
+333 silly gunzTarPerm modified mode [ 'test/e2e/mock-skip-glob/template/src/yes.vue', 438, 420 ]
+334 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/meta.json
+335 silly gunzTarPerm modified mode [ 'test/e2e/mock-template-repo/meta.json', 438, 420 ]
+336 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/template/package.json
+337 silly gunzTarPerm modified mode [ 'test/e2e/mock-template-repo/template/package.json', 438, 420 ]
+338 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/template/src/no.js
+339 silly gunzTarPerm modified mode [ 'test/e2e/mock-template-repo/template/src/no.js', 438, 420 ]
+340 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/template/src/skip-one.vue
+341 silly gunzTarPerm modified mode [ 'test/e2e/mock-template-repo/template/src/skip-one.vue',
+341 silly gunzTarPerm   438,
+341 silly gunzTarPerm   420 ]
+342 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/template/src/skip-two.vue
+343 silly gunzTarPerm modified mode [ 'test/e2e/mock-template-repo/template/src/skip-two.vue',
+343 silly gunzTarPerm   438,
+343 silly gunzTarPerm   420 ]
+344 silly gunzTarPerm extractEntry test/e2e/mock-template-repo/template/src/yes.vue
+345 silly gunzTarPerm modified mode [ 'test/e2e/mock-template-repo/template/src/yes.vue', 438, 420 ]
+346 silly gunzTarPerm extractEntry test/e2e/mock-vue-app/config.js
+347 silly gunzTarPerm modified mode [ 'test/e2e/mock-vue-app/config.js', 438, 420 ]
+348 silly gunzTarPerm extractEntry test/e2e/mock-vue-app/index.js
+349 silly gunzTarPerm modified mode [ 'test/e2e/mock-vue-app/index.js', 438, 420 ]
+350 silly gunzTarPerm extractEntry test/e2e/mock-vue-app/App.vue
+351 silly gunzTarPerm modified mode [ 'test/e2e/mock-vue-app/App.vue', 438, 420 ]
+352 silly lockFile 9fdb633d-Roaming-npm-node-modules-vue-cli tar://C:\Users\Esteban\AppData\Roaming\npm\node_modules\vue-cli
+353 silly lockFile 9fdb633d-Roaming-npm-node-modules-vue-cli tar://C:\Users\Esteban\AppData\Roaming\npm\node_modules\vue-cli
+354 silly lockFile 2ba72218--cache-vue-cli-2-9-6-package-tgz tar://C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package.tgz
+355 silly lockFile 2ba72218--cache-vue-cli-2-9-6-package-tgz tar://C:\Users\Esteban\AppData\Roaming\npm-cache\vue-cli\2.9.6\package.tgz
+356 info preinstall vue-cli@2.9.6
+357 verbose readDependencies using package.json deps
+358 verbose readDependencies using package.json deps
+359 verbose cache add [ 'async@^2.4.0', null ]
+360 verbose cache add name=undefined spec="async@^2.4.0" args=["async@^2.4.0",null]
+361 verbose parsed url { protocol: null,
+361 verbose parsed url   slashes: null,
+361 verbose parsed url   auth: null,
+361 verbose parsed url   host: null,
+361 verbose parsed url   port: null,
+361 verbose parsed url   hostname: null,
+361 verbose parsed url   hash: null,
+361 verbose parsed url   search: null,
+361 verbose parsed url   query: null,
+361 verbose parsed url   pathname: 'async@^2.4.0',
+361 verbose parsed url   path: 'async@^2.4.0',
+361 verbose parsed url   href: 'async@^2.4.0' }
+362 verbose cache add name="async" spec="^2.4.0" args=["async","^2.4.0"]
+363 verbose parsed url { protocol: null,
+363 verbose parsed url   slashes: null,
+363 verbose parsed url   auth: null,
+363 verbose parsed url   host: null,
+363 verbose parsed url   port: null,
+363 verbose parsed url   hostname: null,
+363 verbose parsed url   hash: null,
+363 verbose parsed url   search: null,
+363 verbose parsed url   query: null,
+363 verbose parsed url   pathname: '^2.4.0',
+363 verbose parsed url   path: '^2.4.0',
+363 verbose parsed url   href: '^2.4.0' }
+364 verbose addNamed [ 'async', '^2.4.0' ]
+365 verbose addNamed [ null, null ]
+366 silly lockFile e35e1e8b-async-2-4-0 async@^2.4.0
+367 verbose lock async@^2.4.0 C:\Users\Esteban\AppData\Roaming\npm-cache\e35e1e8b-async-2-4-0.lock
+368 verbose cache add [ 'chalk@^2.1.0', null ]
+369 verbose cache add name=undefined spec="chalk@^2.1.0" args=["chalk@^2.1.0",null]
+370 verbose parsed url { protocol: null,
+370 verbose parsed url   slashes: null,
+370 verbose parsed url   auth: null,
+370 verbose parsed url   host: null,
+370 verbose parsed url   port: null,
+370 verbose parsed url   hostname: null,
+370 verbose parsed url   hash: null,
+370 verbose parsed url   search: null,
+370 verbose parsed url   query: null,
+370 verbose parsed url   pathname: 'chalk@^2.1.0',
+370 verbose parsed url   path: 'chalk@^2.1.0',
+370 verbose parsed url   href: 'chalk@^2.1.0' }
+371 verbose cache add name="chalk" spec="^2.1.0" args=["chalk","^2.1.0"]
+372 verbose parsed url { protocol: null,
+372 verbose parsed url   slashes: null,
+372 verbose parsed url   auth: null,
+372 verbose parsed url   host: null,
+372 verbose parsed url   port: null,
+372 verbose parsed url   hostname: null,
+372 verbose parsed url   hash: null,
+372 verbose parsed url   search: null,
+372 verbose parsed url   query: null,
+372 verbose parsed url   pathname: '^2.1.0',
+372 verbose parsed url   path: '^2.1.0',
+372 verbose parsed url   href: '^2.1.0' }
+373 verbose addNamed [ 'chalk', '^2.1.0' ]
+374 verbose addNamed [ null, null ]
+375 silly lockFile cb71c79f-chalk-2-1-0 chalk@^2.1.0
+376 verbose lock chalk@^2.1.0 C:\Users\Esteban\AppData\Roaming\npm-cache\cb71c79f-chalk-2-1-0.lock
+377 verbose cache add [ 'commander@^2.9.0', null ]
+378 verbose cache add name=undefined spec="commander@^2.9.0" args=["commander@^2.9.0",null]
+379 verbose parsed url { protocol: null,
+379 verbose parsed url   slashes: null,
+379 verbose parsed url   auth: null,
+379 verbose parsed url   host: null,
+379 verbose parsed url   port: null,
+379 verbose parsed url   hostname: null,
+379 verbose parsed url   hash: null,
+379 verbose parsed url   search: null,
+379 verbose parsed url   query: null,
+379 verbose parsed url   pathname: 'commander@^2.9.0',
+379 verbose parsed url   path: 'commander@^2.9.0',
+379 verbose parsed url   href: 'commander@^2.9.0' }
+380 verbose cache add name="commander" spec="^2.9.0" args=["commander","^2.9.0"]
+381 verbose parsed url { protocol: null,
+381 verbose parsed url   slashes: null,
+381 verbose parsed url   auth: null,
+381 verbose parsed url   host: null,
+381 verbose parsed url   port: null,
+381 verbose parsed url   hostname: null,
+381 verbose parsed url   hash: null,
+381 verbose parsed url   search: null,
+381 verbose parsed url   query: null,
+381 verbose parsed url   pathname: '^2.9.0',
+381 verbose parsed url   path: '^2.9.0',
+381 verbose parsed url   href: '^2.9.0' }
+382 verbose addNamed [ 'commander', '^2.9.0' ]
+383 verbose addNamed [ null, null ]
+384 silly lockFile 1600fe2b-commander-2-9-0 commander@^2.9.0
+385 verbose lock commander@^2.9.0 C:\Users\Esteban\AppData\Roaming\npm-cache\1600fe2b-commander-2-9-0.lock
+386 verbose cache add [ 'consolidate@^0.14.0', null ]
+387 verbose cache add name=undefined spec="consolidate@^0.14.0" args=["consolidate@^0.14.0",null]
+388 verbose parsed url { protocol: null,
+388 verbose parsed url   slashes: null,
+388 verbose parsed url   auth: null,
+388 verbose parsed url   host: null,
+388 verbose parsed url   port: null,
+388 verbose parsed url   hostname: null,
+388 verbose parsed url   hash: null,
+388 verbose parsed url   search: null,
+388 verbose parsed url   query: null,
+388 verbose parsed url   pathname: 'consolidate@^0.14.0',
+388 verbose parsed url   path: 'consolidate@^0.14.0',
+388 verbose parsed url   href: 'consolidate@^0.14.0' }
+389 verbose cache add name="consolidate" spec="^0.14.0" args=["consolidate","^0.14.0"]
+390 verbose parsed url { protocol: null,
+390 verbose parsed url   slashes: null,
+390 verbose parsed url   auth: null,
+390 verbose parsed url   host: null,
+390 verbose parsed url   port: null,
+390 verbose parsed url   hostname: null,
+390 verbose parsed url   hash: null,
+390 verbose parsed url   search: null,
+390 verbose parsed url   query: null,
+390 verbose parsed url   pathname: '^0.14.0',
+390 verbose parsed url   path: '^0.14.0',
+390 verbose parsed url   href: '^0.14.0' }
+391 verbose addNamed [ 'consolidate', '^0.14.0' ]
+392 verbose addNamed [ null, null ]
+393 silly lockFile 90d3f4fd-consolidate-0-14-0 consolidate@^0.14.0
+394 verbose lock consolidate@^0.14.0 C:\Users\Esteban\AppData\Roaming\npm-cache\90d3f4fd-consolidate-0-14-0.lock
+395 verbose cache add [ 'download-git-repo@^1.0.1', null ]
+396 verbose cache add name=undefined spec="download-git-repo@^1.0.1" args=["download-git-repo@^1.0.1",null]
+397 verbose parsed url { protocol: null,
+397 verbose parsed url   slashes: null,
+397 verbose parsed url   auth: null,
+397 verbose parsed url   host: null,
+397 verbose parsed url   port: null,
+397 verbose parsed url   hostname: null,
+397 verbose parsed url   hash: null,
+397 verbose parsed url   search: null,
+397 verbose parsed url   query: null,
+397 verbose parsed url   pathname: 'download-git-repo@^1.0.1',
+397 verbose parsed url   path: 'download-git-repo@^1.0.1',
+397 verbose parsed url   href: 'download-git-repo@^1.0.1' }
+398 verbose cache add name="download-git-repo" spec="^1.0.1" args=["download-git-repo","^1.0.1"]
+399 verbose parsed url { protocol: null,
+399 verbose parsed url   slashes: null,
+399 verbose parsed url   auth: null,
+399 verbose parsed url   host: null,
+399 verbose parsed url   port: null,
+399 verbose parsed url   hostname: null,
+399 verbose parsed url   hash: null,
+399 verbose parsed url   search: null,
+399 verbose parsed url   query: null,
+399 verbose parsed url   pathname: '^1.0.1',
+399 verbose parsed url   path: '^1.0.1',
+399 verbose parsed url   href: '^1.0.1' }
+400 verbose addNamed [ 'download-git-repo', '^1.0.1' ]
+401 verbose addNamed [ null, null ]
+402 silly lockFile 03e218e9-download-git-repo-1-0-1 download-git-repo@^1.0.1
+403 verbose lock download-git-repo@^1.0.1 C:\Users\Esteban\AppData\Roaming\npm-cache\03e218e9-download-git-repo-1-0-1.lock
+404 verbose cache add [ 'handlebars@^4.0.5', null ]
+405 verbose cache add name=undefined spec="handlebars@^4.0.5" args=["handlebars@^4.0.5",null]
+406 verbose parsed url { protocol: null,
+406 verbose parsed url   slashes: null,
+406 verbose parsed url   auth: null,
+406 verbose parsed url   host: null,
+406 verbose parsed url   port: null,
+406 verbose parsed url   hostname: null,
+406 verbose parsed url   hash: null,
+406 verbose parsed url   search: null,
+406 verbose parsed url   query: null,
+406 verbose parsed url   pathname: 'handlebars@^4.0.5',
+406 verbose parsed url   path: 'handlebars@^4.0.5',
+406 verbose parsed url   href: 'handlebars@^4.0.5' }
+407 verbose cache add name="handlebars" spec="^4.0.5" args=["handlebars","^4.0.5"]
+408 verbose parsed url { protocol: null,
+408 verbose parsed url   slashes: null,
+408 verbose parsed url   auth: null,
+408 verbose parsed url   host: null,
+408 verbose parsed url   port: null,
+408 verbose parsed url   hostname: null,
+408 verbose parsed url   hash: null,
+408 verbose parsed url   search: null,
+408 verbose parsed url   query: null,
+408 verbose parsed url   pathname: '^4.0.5',
+408 verbose parsed url   path: '^4.0.5',
+408 verbose parsed url   href: '^4.0.5' }
+409 verbose addNamed [ 'handlebars', '^4.0.5' ]
+410 verbose addNamed [ null, null ]
+411 silly lockFile 923b18d3-handlebars-4-0-5 handlebars@^4.0.5
+412 verbose lock handlebars@^4.0.5 C:\Users\Esteban\AppData\Roaming\npm-cache\923b18d3-handlebars-4-0-5.lock
+413 verbose cache add [ 'inquirer@^6.0.0', null ]
+414 verbose cache add name=undefined spec="inquirer@^6.0.0" args=["inquirer@^6.0.0",null]
+415 verbose parsed url { protocol: null,
+415 verbose parsed url   slashes: null,
+415 verbose parsed url   auth: null,
+415 verbose parsed url   host: null,
+415 verbose parsed url   port: null,
+415 verbose parsed url   hostname: null,
+415 verbose parsed url   hash: null,
+415 verbose parsed url   search: null,
+415 verbose parsed url   query: null,
+415 verbose parsed url   pathname: 'inquirer@^6.0.0',
+415 verbose parsed url   path: 'inquirer@^6.0.0',
+415 verbose parsed url   href: 'inquirer@^6.0.0' }
+416 verbose cache add name="inquirer" spec="^6.0.0" args=["inquirer","^6.0.0"]
+417 verbose parsed url { protocol: null,
+417 verbose parsed url   slashes: null,
+417 verbose parsed url   auth: null,
+417 verbose parsed url   host: null,
+417 verbose parsed url   port: null,
+417 verbose parsed url   hostname: null,
+417 verbose parsed url   hash: null,
+417 verbose parsed url   search: null,
+417 verbose parsed url   query: null,
+417 verbose parsed url   pathname: '^6.0.0',
+417 verbose parsed url   path: '^6.0.0',
+417 verbose parsed url   href: '^6.0.0' }
+418 verbose addNamed [ 'inquirer', '^6.0.0' ]
+419 verbose addNamed [ null, null ]
+420 silly lockFile bc7d7199-inquirer-6-0-0 inquirer@^6.0.0
+421 verbose lock inquirer@^6.0.0 C:\Users\Esteban\AppData\Roaming\npm-cache\bc7d7199-inquirer-6-0-0.lock
+422 verbose cache add [ 'metalsmith@^2.1.0', null ]
+423 verbose cache add name=undefined spec="metalsmith@^2.1.0" args=["metalsmith@^2.1.0",null]
+424 verbose parsed url { protocol: null,
+424 verbose parsed url   slashes: null,
+424 verbose parsed url   auth: null,
+424 verbose parsed url   host: null,
+424 verbose parsed url   port: null,
+424 verbose parsed url   hostname: null,
+424 verbose parsed url   hash: null,
+424 verbose parsed url   search: null,
+424 verbose parsed url   query: null,
+424 verbose parsed url   pathname: 'metalsmith@^2.1.0',
+424 verbose parsed url   path: 'metalsmith@^2.1.0',
+424 verbose parsed url   href: 'metalsmith@^2.1.0' }
+425 verbose cache add name="metalsmith" spec="^2.1.0" args=["metalsmith","^2.1.0"]
+426 verbose parsed url { protocol: null,
+426 verbose parsed url   slashes: null,
+426 verbose parsed url   auth: null,
+426 verbose parsed url   host: null,
+426 verbose parsed url   port: null,
+426 verbose parsed url   hostname: null,
+426 verbose parsed url   hash: null,
+426 verbose parsed url   search: null,
+426 verbose parsed url   query: null,
+426 verbose parsed url   pathname: '^2.1.0',
+426 verbose parsed url   path: '^2.1.0',
+426 verbose parsed url   href: '^2.1.0' }
+427 verbose addNamed [ 'metalsmith', '^2.1.0' ]
+428 verbose addNamed [ null, null ]
+429 silly lockFile ab50008d-metalsmith-2-1-0 metalsmith@^2.1.0
+430 verbose lock metalsmith@^2.1.0 C:\Users\Esteban\AppData\Roaming\npm-cache\ab50008d-metalsmith-2-1-0.lock
+431 verbose cache add [ 'minimatch@^3.0.0', null ]
+432 verbose cache add name=undefined spec="minimatch@^3.0.0" args=["minimatch@^3.0.0",null]
+433 verbose parsed url { protocol: null,
+433 verbose parsed url   slashes: null,
+433 verbose parsed url   auth: null,
+433 verbose parsed url   host: null,
+433 verbose parsed url   port: null,
+433 verbose parsed url   hostname: null,
+433 verbose parsed url   hash: null,
+433 verbose parsed url   search: null,
+433 verbose parsed url   query: null,
+433 verbose parsed url   pathname: 'minimatch@^3.0.0',
+433 verbose parsed url   path: 'minimatch@^3.0.0',
+433 verbose parsed url   href: 'minimatch@^3.0.0' }
+434 verbose cache add name="minimatch" spec="^3.0.0" args=["minimatch","^3.0.0"]
+435 verbose parsed url { protocol: null,
+435 verbose parsed url   slashes: null,
+435 verbose parsed url   auth: null,
+435 verbose parsed url   host: null,
+435 verbose parsed url   port: null,
+435 verbose parsed url   hostname: null,
+435 verbose parsed url   hash: null,
+435 verbose parsed url   search: null,
+435 verbose parsed url   query: null,
+435 verbose parsed url   pathname: '^3.0.0',
+435 verbose parsed url   path: '^3.0.0',
+435 verbose parsed url   href: '^3.0.0' }
+436 verbose addNamed [ 'minimatch', '^3.0.0' ]
+437 verbose addNamed [ null, null ]
+438 silly lockFile bed99fe0-minimatch-3-0-0 minimatch@^3.0.0
+439 verbose lock minimatch@^3.0.0 C:\Users\Esteban\AppData\Roaming\npm-cache\bed99fe0-minimatch-3-0-0.lock
+440 verbose cache add [ 'multimatch@^2.1.0', null ]
+441 verbose cache add name=undefined spec="multimatch@^2.1.0" args=["multimatch@^2.1.0",null]
+442 verbose parsed url { protocol: null,
+442 verbose parsed url   slashes: null,
+442 verbose parsed url   auth: null,
+442 verbose parsed url   host: null,
+442 verbose parsed url   port: null,
+442 verbose parsed url   hostname: null,
+442 verbose parsed url   hash: null,
+442 verbose parsed url   search: null,
+442 verbose parsed url   query: null,
+442 verbose parsed url   pathname: 'multimatch@^2.1.0',
+442 verbose parsed url   path: 'multimatch@^2.1.0',
+442 verbose parsed url   href: 'multimatch@^2.1.0' }
+443 verbose cache add name="multimatch" spec="^2.1.0" args=["multimatch","^2.1.0"]
+444 verbose parsed url { protocol: null,
+444 verbose parsed url   slashes: null,
+444 verbose parsed url   auth: null,
+444 verbose parsed url   host: null,
+444 verbose parsed url   port: null,
+444 verbose parsed url   hostname: null,
+444 verbose parsed url   hash: null,
+444 verbose parsed url   search: null,
+444 verbose parsed url   query: null,
+444 verbose parsed url   pathname: '^2.1.0',
+444 verbose parsed url   path: '^2.1.0',
+444 verbose parsed url   href: '^2.1.0' }
+445 verbose addNamed [ 'multimatch', '^2.1.0' ]
+446 verbose addNamed [ null, null ]
+447 silly lockFile d2ffc5c0-multimatch-2-1-0 multimatch@^2.1.0
+448 verbose lock multimatch@^2.1.0 C:\Users\Esteban\AppData\Roaming\npm-cache\d2ffc5c0-multimatch-2-1-0.lock
+449 verbose cache add [ 'ora@^1.3.0', null ]
+450 verbose cache add name=undefined spec="ora@^1.3.0" args=["ora@^1.3.0",null]
+451 verbose parsed url { protocol: null,
+451 verbose parsed url   slashes: null,
+451 verbose parsed url   auth: null,
+451 verbose parsed url   host: null,
+451 verbose parsed url   port: null,
+451 verbose parsed url   hostname: null,
+451 verbose parsed url   hash: null,
+451 verbose parsed url   search: null,
+451 verbose parsed url   query: null,
+451 verbose parsed url   pathname: 'ora@^1.3.0',
+451 verbose parsed url   path: 'ora@^1.3.0',
+451 verbose parsed url   href: 'ora@^1.3.0' }
+452 verbose cache add name="ora" spec="^1.3.0" args=["ora","^1.3.0"]
+453 verbose parsed url { protocol: null,
+453 verbose parsed url   slashes: null,
+453 verbose parsed url   auth: null,
+453 verbose parsed url   host: null,
+453 verbose parsed url   port: null,
+453 verbose parsed url   hostname: null,
+453 verbose parsed url   hash: null,
+453 verbose parsed url   search: null,
+453 verbose parsed url   query: null,
+453 verbose parsed url   pathname: '^1.3.0',
+453 verbose parsed url   path: '^1.3.0',
+453 verbose parsed url   href: '^1.3.0' }
+454 verbose addNamed [ 'ora', '^1.3.0' ]
+455 verbose addNamed [ null, null ]
+456 silly lockFile 1695a5a6-ora-1-3-0 ora@^1.3.0
+457 verbose lock ora@^1.3.0 C:\Users\Esteban\AppData\Roaming\npm-cache\1695a5a6-ora-1-3-0.lock
+458 verbose cache add [ 'read-metadata@^1.0.0', null ]
+459 verbose cache add name=undefined spec="read-metadata@^1.0.0" args=["read-metadata@^1.0.0",null]
+460 verbose parsed url { protocol: null,
+460 verbose parsed url   slashes: null,
+460 verbose parsed url   auth: null,
+460 verbose parsed url   host: null,
+460 verbose parsed url   port: null,
+460 verbose parsed url   hostname: null,
+460 verbose parsed url   hash: null,
+460 verbose parsed url   search: null,
+460 verbose parsed url   query: null,
+460 verbose parsed url   pathname: 'read-metadata@^1.0.0',
+460 verbose parsed url   path: 'read-metadata@^1.0.0',
+460 verbose parsed url   href: 'read-metadata@^1.0.0' }
+461 verbose cache add name="read-metadata" spec="^1.0.0" args=["read-metadata","^1.0.0"]
+462 verbose parsed url { protocol: null,
+462 verbose parsed url   slashes: null,
+462 verbose parsed url   auth: null,
+462 verbose parsed url   host: null,
+462 verbose parsed url   port: null,
+462 verbose parsed url   hostname: null,
+462 verbose parsed url   hash: null,
+462 verbose parsed url   search: null,
+462 verbose parsed url   query: null,
+462 verbose parsed url   pathname: '^1.0.0',
+462 verbose parsed url   path: '^1.0.0',
+462 verbose parsed url   href: '^1.0.0' }
+463 verbose addNamed [ 'read-metadata', '^1.0.0' ]
+464 verbose addNamed [ null, null ]
+465 silly lockFile f300d52b-read-metadata-1-0-0 read-metadata@^1.0.0
+466 verbose lock read-metadata@^1.0.0 C:\Users\Esteban\AppData\Roaming\npm-cache\f300d52b-read-metadata-1-0-0.lock
+467 verbose cache add [ 'request@^2.67.0', null ]
+468 verbose cache add name=undefined spec="request@^2.67.0" args=["request@^2.67.0",null]
+469 verbose parsed url { protocol: null,
+469 verbose parsed url   slashes: null,
+469 verbose parsed url   auth: null,
+469 verbose parsed url   host: null,
+469 verbose parsed url   port: null,
+469 verbose parsed url   hostname: null,
+469 verbose parsed url   hash: null,
+469 verbose parsed url   search: null,
+469 verbose parsed url   query: null,
+469 verbose parsed url   pathname: 'request@^2.67.0',
+469 verbose parsed url   path: 'request@^2.67.0',
+469 verbose parsed url   href: 'request@^2.67.0' }
+470 verbose cache add name="request" spec="^2.67.0" args=["request","^2.67.0"]
+471 verbose parsed url { protocol: null,
+471 verbose parsed url   slashes: null,
+471 verbose parsed url   auth: null,
+471 verbose parsed url   host: null,
+471 verbose parsed url   port: null,
+471 verbose parsed url   hostname: null,
+471 verbose parsed url   hash: null,
+471 verbose parsed url   search: null,
+471 verbose parsed url   query: null,
+471 verbose parsed url   pathname: '^2.67.0',
+471 verbose parsed url   path: '^2.67.0',
+471 verbose parsed url   href: '^2.67.0' }
+472 verbose addNamed [ 'request', '^2.67.0' ]
+473 verbose addNamed [ null, null ]
+474 silly lockFile 18eece6e-request-2-67-0 request@^2.67.0
+475 verbose lock request@^2.67.0 C:\Users\Esteban\AppData\Roaming\npm-cache\18eece6e-request-2-67-0.lock
+476 verbose cache add [ 'rimraf@^2.5.0', null ]
+477 verbose cache add name=undefined spec="rimraf@^2.5.0" args=["rimraf@^2.5.0",null]
+478 verbose parsed url { protocol: null,
+478 verbose parsed url   slashes: null,
+478 verbose parsed url   auth: null,
+478 verbose parsed url   host: null,
+478 verbose parsed url   port: null,
+478 verbose parsed url   hostname: null,
+478 verbose parsed url   hash: null,
+478 verbose parsed url   search: null,
+478 verbose parsed url   query: null,
+478 verbose parsed url   pathname: 'rimraf@^2.5.0',
+478 verbose parsed url   path: 'rimraf@^2.5.0',
+478 verbose parsed url   href: 'rimraf@^2.5.0' }
+479 verbose cache add name="rimraf" spec="^2.5.0" args=["rimraf","^2.5.0"]
+480 verbose parsed url { protocol: null,
+480 verbose parsed url   slashes: null,
+480 verbose parsed url   auth: null,
+480 verbose parsed url   host: null,
+480 verbose parsed url   port: null,
+480 verbose parsed url   hostname: null,
+480 verbose parsed url   hash: null,
+480 verbose parsed url   search: null,
+480 verbose parsed url   query: null,
+480 verbose parsed url   pathname: '^2.5.0',
+480 verbose parsed url   path: '^2.5.0',
+480 verbose parsed url   href: '^2.5.0' }
+481 verbose addNamed [ 'rimraf', '^2.5.0' ]
+482 verbose addNamed [ null, null ]
+483 silly lockFile dafd62b7-rimraf-2-5-0 rimraf@^2.5.0
+484 verbose lock rimraf@^2.5.0 C:\Users\Esteban\AppData\Roaming\npm-cache\dafd62b7-rimraf-2-5-0.lock
+485 verbose cache add [ 'semver@^5.1.0', null ]
+486 verbose cache add name=undefined spec="semver@^5.1.0" args=["semver@^5.1.0",null]
+487 verbose parsed url { protocol: null,
+487 verbose parsed url   slashes: null,
+487 verbose parsed url   auth: null,
+487 verbose parsed url   host: null,
+487 verbose parsed url   port: null,
+487 verbose parsed url   hostname: null,
+487 verbose parsed url   hash: null,
+487 verbose parsed url   search: null,
+487 verbose parsed url   query: null,
+487 verbose parsed url   pathname: 'semver@^5.1.0',
+487 verbose parsed url   path: 'semver@^5.1.0',
+487 verbose parsed url   href: 'semver@^5.1.0' }
+488 verbose cache add name="semver" spec="^5.1.0" args=["semver","^5.1.0"]
+489 verbose parsed url { protocol: null,
+489 verbose parsed url   slashes: null,
+489 verbose parsed url   auth: null,
+489 verbose parsed url   host: null,
+489 verbose parsed url   port: null,
+489 verbose parsed url   hostname: null,
+489 verbose parsed url   hash: null,
+489 verbose parsed url   search: null,
+489 verbose parsed url   query: null,
+489 verbose parsed url   pathname: '^5.1.0',
+489 verbose parsed url   path: '^5.1.0',
+489 verbose parsed url   href: '^5.1.0' }
+490 verbose addNamed [ 'semver', '^5.1.0' ]
+491 verbose addNamed [ null, null ]
+492 silly lockFile 2d444a4b-semver-5-1-0 semver@^5.1.0
+493 verbose lock semver@^5.1.0 C:\Users\Esteban\AppData\Roaming\npm-cache\2d444a4b-semver-5-1-0.lock
+494 verbose cache add [ 'tildify@^1.2.0', null ]
+495 verbose cache add name=undefined spec="tildify@^1.2.0" args=["tildify@^1.2.0",null]
+496 verbose parsed url { protocol: null,
+496 verbose parsed url   slashes: null,
+496 verbose parsed url   auth: null,
+496 verbose parsed url   host: null,
+496 verbose parsed url   port: null,
+496 verbose parsed url   hostname: null,
+496 verbose parsed url   hash: null,
+496 verbose parsed url   search: null,
+496 verbose parsed url   query: null,
+496 verbose parsed url   pathname: 'tildify@^1.2.0',
+496 verbose parsed url   path: 'tildify@^1.2.0',
+496 verbose parsed url   href: 'tildify@^1.2.0' }
+497 verbose cache add name="tildify" spec="^1.2.0" args=["tildify","^1.2.0"]
+498 verbose parsed url { protocol: null,
+498 verbose parsed url   slashes: null,
+498 verbose parsed url   auth: null,
+498 verbose parsed url   host: null,
+498 verbose parsed url   port: null,
+498 verbose parsed url   hostname: null,
+498 verbose parsed url   hash: null,
+498 verbose parsed url   search: null,
+498 verbose parsed url   query: null,
+498 verbose parsed url   pathname: '^1.2.0',
+498 verbose parsed url   path: '^1.2.0',
+498 verbose parsed url   href: '^1.2.0' }
+499 verbose addNamed [ 'tildify', '^1.2.0' ]
+500 verbose addNamed [ null, null ]
+501 silly lockFile b4aff94d-tildify-1-2-0 tildify@^1.2.0
+502 verbose lock tildify@^1.2.0 C:\Users\Esteban\AppData\Roaming\npm-cache\b4aff94d-tildify-1-2-0.lock
+503 verbose cache add [ 'uid@0.0.2', null ]
+504 verbose cache add name=undefined spec="uid@0.0.2" args=["uid@0.0.2",null]
+505 verbose parsed url { protocol: null,
+505 verbose parsed url   slashes: null,
+505 verbose parsed url   auth: null,
+505 verbose parsed url   host: null,
+505 verbose parsed url   port: null,
+505 verbose parsed url   hostname: null,
+505 verbose parsed url   hash: null,
+505 verbose parsed url   search: null,
+505 verbose parsed url   query: null,
+505 verbose parsed url   pathname: 'uid@0.0.2',
+505 verbose parsed url   path: 'uid@0.0.2',
+505 verbose parsed url   href: 'uid@0.0.2' }
+506 verbose cache add name="uid" spec="0.0.2" args=["uid","0.0.2"]
+507 verbose parsed url { protocol: null,
+507 verbose parsed url   slashes: null,
+507 verbose parsed url   auth: null,
+507 verbose parsed url   host: null,
+507 verbose parsed url   port: null,
+507 verbose parsed url   hostname: null,
+507 verbose parsed url   hash: null,
+507 verbose parsed url   search: null,
+507 verbose parsed url   query: null,
+507 verbose parsed url   pathname: '0.0.2',
+507 verbose parsed url   path: '0.0.2',
+507 verbose parsed url   href: '0.0.2' }
+508 verbose addNamed [ 'uid', '0.0.2' ]
+509 verbose addNamed [ '0.0.2', '0.0.2' ]
+510 silly lockFile 09326036-uid-0-0-2 uid@0.0.2
+511 verbose lock uid@0.0.2 C:\Users\Esteban\AppData\Roaming\npm-cache\09326036-uid-0-0-2.lock
+512 verbose cache add [ 'user-home@^2.0.0', null ]
+513 verbose cache add name=undefined spec="user-home@^2.0.0" args=["user-home@^2.0.0",null]
+514 verbose parsed url { protocol: null,
+514 verbose parsed url   slashes: null,
+514 verbose parsed url   auth: null,
+514 verbose parsed url   host: null,
+514 verbose parsed url   port: null,
+514 verbose parsed url   hostname: null,
+514 verbose parsed url   hash: null,
+514 verbose parsed url   search: null,
+514 verbose parsed url   query: null,
+514 verbose parsed url   pathname: 'user-home@^2.0.0',
+514 verbose parsed url   path: 'user-home@^2.0.0',
+514 verbose parsed url   href: 'user-home@^2.0.0' }
+515 verbose cache add name="user-home" spec="^2.0.0" args=["user-home","^2.0.0"]
+516 verbose parsed url { protocol: null,
+516 verbose parsed url   slashes: null,
+516 verbose parsed url   auth: null,
+516 verbose parsed url   host: null,
+516 verbose parsed url   port: null,
+516 verbose parsed url   hostname: null,
+516 verbose parsed url   hash: null,
+516 verbose parsed url   search: null,
+516 verbose parsed url   query: null,
+516 verbose parsed url   pathname: '^2.0.0',
+516 verbose parsed url   path: '^2.0.0',
+516 verbose parsed url   href: '^2.0.0' }
+517 verbose addNamed [ 'user-home', '^2.0.0' ]
+518 verbose addNamed [ null, null ]
+519 silly lockFile fb1086f1-user-home-2-0-0 user-home@^2.0.0
+520 verbose lock user-home@^2.0.0 C:\Users\Esteban\AppData\Roaming\npm-cache\fb1086f1-user-home-2-0-0.lock
+521 verbose cache add [ 'validate-npm-package-name@^3.0.0', null ]
+522 verbose cache add name=undefined spec="validate-npm-package-name@^3.0.0" args=["validate-npm-package-name@^3.0.0",null]
+523 verbose parsed url { protocol: null,
+523 verbose parsed url   slashes: null,
+523 verbose parsed url   auth: null,
+523 verbose parsed url   host: null,
+523 verbose parsed url   port: null,
+523 verbose parsed url   hostname: null,
+523 verbose parsed url   hash: null,
+523 verbose parsed url   search: null,
+523 verbose parsed url   query: null,
+523 verbose parsed url   pathname: 'validate-npm-package-name@^3.0.0',
+523 verbose parsed url   path: 'validate-npm-package-name@^3.0.0',
+523 verbose parsed url   href: 'validate-npm-package-name@^3.0.0' }
+524 verbose cache add name="validate-npm-package-name" spec="^3.0.0" args=["validate-npm-package-name","^3.0.0"]
+525 verbose parsed url { protocol: null,
+525 verbose parsed url   slashes: null,
+525 verbose parsed url   auth: null,
+525 verbose parsed url   host: null,
+525 verbose parsed url   port: null,
+525 verbose parsed url   hostname: null,
+525 verbose parsed url   hash: null,
+525 verbose parsed url   search: null,
+525 verbose parsed url   query: null,
+525 verbose parsed url   pathname: '^3.0.0',
+525 verbose parsed url   path: '^3.0.0',
+525 verbose parsed url   href: '^3.0.0' }
+526 verbose addNamed [ 'validate-npm-package-name', '^3.0.0' ]
+527 verbose addNamed [ null, null ]
+528 silly lockFile 9df6a90e-validate-npm-package-name-3-0-0 validate-npm-package-name@^3.0.0
+529 verbose lock validate-npm-package-name@^3.0.0 C:\Users\Esteban\AppData\Roaming\npm-cache\9df6a90e-validate-npm-package-name-3-0-0.lock
+530 verbose cache add [ 'coffee-script@1.12.7', null ]
+531 verbose cache add name=undefined spec="coffee-script@1.12.7" args=["coffee-script@1.12.7",null]
+532 verbose parsed url { protocol: null,
+532 verbose parsed url   slashes: null,
+532 verbose parsed url   auth: null,
+532 verbose parsed url   host: null,
+532 verbose parsed url   port: null,
+532 verbose parsed url   hostname: null,
+532 verbose parsed url   hash: null,
+532 verbose parsed url   search: null,
+532 verbose parsed url   query: null,
+532 verbose parsed url   pathname: 'coffee-script@1.12.7',
+532 verbose parsed url   path: 'coffee-script@1.12.7',
+532 verbose parsed url   href: 'coffee-script@1.12.7' }
+533 verbose cache add name="coffee-script" spec="1.12.7" args=["coffee-script","1.12.7"]
+534 verbose parsed url { protocol: null,
+534 verbose parsed url   slashes: null,
+534 verbose parsed url   auth: null,
+534 verbose parsed url   host: null,
+534 verbose parsed url   port: null,
+534 verbose parsed url   hostname: null,
+534 verbose parsed url   hash: null,
+534 verbose parsed url   search: null,
+534 verbose parsed url   query: null,
+534 verbose parsed url   pathname: '1.12.7',
+534 verbose parsed url   path: '1.12.7',
+534 verbose parsed url   href: '1.12.7' }
+535 verbose addNamed [ 'coffee-script', '1.12.7' ]
+536 verbose addNamed [ '1.12.7', '1.12.7' ]
+537 silly lockFile f62f73af-coffee-script-1-12-7 coffee-script@1.12.7
+538 verbose lock coffee-script@1.12.7 C:\Users\Esteban\AppData\Roaming\npm-cache\f62f73af-coffee-script-1-12-7.lock
+539 info addNameTag [ 'async', '^2.4.0' ]
+540 info addNameTag [ 'chalk', '^2.1.0' ]
+541 info addNameTag [ 'download-git-repo', '^1.0.1' ]
+542 info addNameTag [ 'consolidate', '^0.14.0' ]
+543 info addNameTag [ 'commander', '^2.9.0' ]
+544 info addNameTag [ 'metalsmith', '^2.1.0' ]
+545 info addNameTag [ 'handlebars', '^4.0.5' ]
+546 info addNameTag [ 'inquirer', '^6.0.0' ]
+547 info addNameTag [ 'minimatch', '^3.0.0' ]
+548 info addNameTag [ 'ora', '^1.3.0' ]
+549 info addNameTag [ 'read-metadata', '^1.0.0' ]
+550 info addNameTag [ 'request', '^2.67.0' ]
+551 info addNameTag [ 'rimraf', '^2.5.0' ]
+552 info addNameTag [ 'multimatch', '^2.1.0' ]
+553 info addNameTag [ 'semver', '^5.1.0' ]
+554 info addNameTag [ 'tildify', '^1.2.0' ]
+555 info addNameTag [ 'validate-npm-package-name', '^3.0.0' ]
+556 info addNameTag [ 'user-home', '^2.0.0' ]
+557 verbose url raw async
+558 verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
+559 verbose url resolved https://registry.npmjs.org/async
+560 info trying registry request attempt 1 at 10:20:48
+561 http GET https://registry.npmjs.org/async
+562 verbose url raw chalk
+563 verbose url resolving [ 'https://registry.npmjs.org/', './chalk' ]
+564 verbose url resolved https://registry.npmjs.org/chalk
+565 info trying registry request attempt 1 at 10:20:48
+566 http GET https://registry.npmjs.org/chalk
+567 verbose url raw download-git-repo
+568 verbose url resolving [ 'https://registry.npmjs.org/', './download-git-repo' ]
+569 verbose url resolved https://registry.npmjs.org/download-git-repo
+570 info trying registry request attempt 1 at 10:20:48
+571 http GET https://registry.npmjs.org/download-git-repo
+572 verbose url raw consolidate
+573 verbose url resolving [ 'https://registry.npmjs.org/', './consolidate' ]
+574 verbose url resolved https://registry.npmjs.org/consolidate
+575 info trying registry request attempt 1 at 10:20:48
+576 http GET https://registry.npmjs.org/consolidate
+577 verbose url raw commander
+578 verbose url resolving [ 'https://registry.npmjs.org/', './commander' ]
+579 verbose url resolved https://registry.npmjs.org/commander
+580 info trying registry request attempt 1 at 10:20:48
+581 http GET https://registry.npmjs.org/commander
+582 verbose url raw metalsmith
+583 verbose url resolving [ 'https://registry.npmjs.org/', './metalsmith' ]
+584 verbose url resolved https://registry.npmjs.org/metalsmith
+585 info trying registry request attempt 1 at 10:20:48
+586 http GET https://registry.npmjs.org/metalsmith
+587 verbose url raw handlebars
+588 verbose url resolving [ 'https://registry.npmjs.org/', './handlebars' ]
+589 verbose url resolved https://registry.npmjs.org/handlebars
+590 info trying registry request attempt 1 at 10:20:48
+591 http GET https://registry.npmjs.org/handlebars
+592 verbose url raw inquirer
+593 verbose url resolving [ 'https://registry.npmjs.org/', './inquirer' ]
+594 verbose url resolved https://registry.npmjs.org/inquirer
+595 info trying registry request attempt 1 at 10:20:48
+596 http GET https://registry.npmjs.org/inquirer
+597 verbose url raw minimatch
+598 verbose url resolving [ 'https://registry.npmjs.org/', './minimatch' ]
+599 verbose url resolved https://registry.npmjs.org/minimatch
+600 info trying registry request attempt 1 at 10:20:48
+601 http GET https://registry.npmjs.org/minimatch
+602 verbose url raw ora
+603 verbose url resolving [ 'https://registry.npmjs.org/', './ora' ]
+604 verbose url resolved https://registry.npmjs.org/ora
+605 info trying registry request attempt 1 at 10:20:48
+606 http GET https://registry.npmjs.org/ora
+607 verbose url raw read-metadata
+608 verbose url resolving [ 'https://registry.npmjs.org/', './read-metadata' ]
+609 verbose url resolved https://registry.npmjs.org/read-metadata
+610 info trying registry request attempt 1 at 10:20:48
+611 http GET https://registry.npmjs.org/read-metadata
+612 verbose url raw request
+613 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+614 verbose url resolved https://registry.npmjs.org/request
+615 info trying registry request attempt 1 at 10:20:48
+616 http GET https://registry.npmjs.org/request
+617 verbose url raw rimraf
+618 verbose url resolving [ 'https://registry.npmjs.org/', './rimraf' ]
+619 verbose url resolved https://registry.npmjs.org/rimraf
+620 info trying registry request attempt 1 at 10:20:48
+621 http GET https://registry.npmjs.org/rimraf
+622 verbose url raw multimatch
+623 verbose url resolving [ 'https://registry.npmjs.org/', './multimatch' ]
+624 verbose url resolved https://registry.npmjs.org/multimatch
+625 info trying registry request attempt 1 at 10:20:48
+626 http GET https://registry.npmjs.org/multimatch
+627 verbose url raw semver
+628 verbose url resolving [ 'https://registry.npmjs.org/', './semver' ]
+629 verbose url resolved https://registry.npmjs.org/semver
+630 info trying registry request attempt 1 at 10:20:48
+631 http GET https://registry.npmjs.org/semver
+632 verbose url raw tildify
+633 verbose url resolving [ 'https://registry.npmjs.org/', './tildify' ]
+634 verbose url resolved https://registry.npmjs.org/tildify
+635 info trying registry request attempt 1 at 10:20:48
+636 http GET https://registry.npmjs.org/tildify
+637 verbose url raw uid/0.0.2
+638 verbose url resolving [ 'https://registry.npmjs.org/', './uid/0.0.2' ]
+639 verbose url resolved https://registry.npmjs.org/uid/0.0.2
+640 info trying registry request attempt 1 at 10:20:48
+641 http GET https://registry.npmjs.org/uid/0.0.2
+642 verbose url raw validate-npm-package-name
+643 verbose url resolving [ 'https://registry.npmjs.org/', './validate-npm-package-name' ]
+644 verbose url resolved https://registry.npmjs.org/validate-npm-package-name
+645 info trying registry request attempt 1 at 10:20:48
+646 http GET https://registry.npmjs.org/validate-npm-package-name
+647 verbose url raw user-home
+648 verbose url resolving [ 'https://registry.npmjs.org/', './user-home' ]
+649 verbose url resolved https://registry.npmjs.org/user-home
+650 info trying registry request attempt 1 at 10:20:48
+651 http GET https://registry.npmjs.org/user-home
+652 verbose url raw coffee-script/1.12.7
+653 verbose url resolving [ 'https://registry.npmjs.org/', './coffee-script/1.12.7' ]
+654 verbose url resolved https://registry.npmjs.org/coffee-script/1.12.7
+655 info trying registry request attempt 1 at 10:20:48
+656 http GET https://registry.npmjs.org/coffee-script/1.12.7
+657 http 200 https://registry.npmjs.org/download-git-repo
+658 silly registry.get cb [ 200,
+658 silly registry.get   { date: 'Thu, 29 Oct 2020 17:20:53 GMT',
+658 silly registry.get     'content-type': 'application/json',
+658 silly registry.get     'content-length': '32189',
+658 silly registry.get     connection: 'keep-alive',
+658 silly registry.get     'cf-ray': '5e9e91dfbcc31b0f-PHX',
+658 silly registry.get     'accept-ranges': 'bytes',
+658 silly registry.get     'cache-control': 'public, max-age=300',
+658 silly registry.get     etag: '"61666c56ca2b5dd0a510976ae64868ad"',
+658 silly registry.get     'last-modified': 'Sat, 12 Oct 2019 21:47:01 GMT',
+658 silly registry.get     vary: 'accept-encoding, accept',
+658 silly registry.get     'cf-cache-status': 'HIT',
+658 silly registry.get     'cf-request-id': '0616f97fd100001b0f36b22000000001',
+658 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+658 silly registry.get     server: 'cloudflare' } ]
+659 silly lockFile 03e218e9-download-git-repo-1-0-1 download-git-repo@^1.0.1
+660 silly lockFile 03e218e9-download-git-repo-1-0-1 download-git-repo@^1.0.1
+661 http 200 https://registry.npmjs.org/chalk
+662 silly registry.get cb [ 200,
+662 silly registry.get   { date: 'Thu, 29 Oct 2020 17:20:53 GMT',
+662 silly registry.get     'content-type': 'application/json',
+662 silly registry.get     'content-length': '106959',
+662 silly registry.get     connection: 'keep-alive',
+662 silly registry.get     'cf-ray': '5e9e91df8c9c1b0f-PHX',
+662 silly registry.get     'accept-ranges': 'bytes',
+662 silly registry.get     age: '1551',
+662 silly registry.get     'cache-control': 'public, max-age=300',
+662 silly registry.get     etag: '"e6dc61890ce6404fcb69a1189f5b9570"',
+662 silly registry.get     'last-modified': 'Mon, 26 Oct 2020 21:55:14 GMT',
+662 silly registry.get     vary: 'accept-encoding, accept',
+662 silly registry.get     'cf-cache-status': 'HIT',
+662 silly registry.get     'cf-request-id': '0616f97fb800001b0f3d3e2000000001',
+662 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+662 silly registry.get     server: 'cloudflare' } ]
+663 verbose about to build C:\Users\Esteban\AppData\Roaming\npm\node_modules\vue-cli
+664 info C:\Users\Esteban\AppData\Roaming\npm\node_modules\vue-cli unbuild
+665 info preuninstall vue-cli@2.9.6
+666 info uninstall vue-cli@2.9.6
+667 verbose true,C:\Users\Esteban\AppData\Roaming\npm\node_modules,C:\Users\Esteban\AppData\Roaming\npm\node_modules unbuild vue-cli@2.9.6
+668 verbose C:\Users\Esteban\AppData\Roaming\npm,[object Object] binRoot
+669 info postuninstall vue-cli@2.9.6
+670 silly lockFile cb71c79f-chalk-2-1-0 chalk@^2.1.0
+671 silly lockFile cb71c79f-chalk-2-1-0 chalk@^2.1.0
+672 error Error: No compatible version found: download-git-repo@'^1.0.1'
+672 error Valid install targets:
+672 error ["0.0.1","0.0.2","0.1.0","0.1.1","0.1.2","0.1.3","0.2.0","0.2.1","0.2.2","1.0.0","1.0.1","1.0.2","1.1.0","2.0.0","3.0.0","3.0.1","3.0.2"]
+672 error     at installTargetsError (C:\Program Files\nodejs\node_modules\npm\lib\cache.js:719:10)
+672 error     at C:\Program Files\nodejs\node_modules\npm\lib\cache.js:638:10
+672 error     at saved (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\get.js:142:7)
+672 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:133:7
+672 error     at Object.oncomplete (fs.js:107:15)
+673 error If you need help, you may report this log at:
+673 error     <http://github.com/isaacs/npm/issues>
+673 error or email it to:
+673 error     <npm-@googlegroups.com>
+674 error System Windows_NT 6.1.7601
+675 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--global" "vue-cli"
+676 error cwd C:\Users\Esteban\Desktop\6to Semestre\Paradigmas\Segundo parcial\curso_vue
+677 error node -v v0.10.14
+678 error npm -v 1.3.5
+679 verbose exit [ 1, true ]
